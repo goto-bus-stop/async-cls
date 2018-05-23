@@ -1,0 +1,29 @@
+{
+  "name": "async-cls",
+  "description": "dead simple continuation local storage using async hooks",
+  "version": "0.0.0",
+  "author": "Renée Kooi <renee@kooi.me>",
+  "bugs": {
+    "url": "https://github.com/goto-bus-stop/async-cls/issues"
+  },
+  "devDependencies": {
+    "standard": "^11.0.0",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.0"
+  },
+  "homepage": "https://github.com/goto-bus-stop/async-cls",
+  "keywords": [],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "bin": "bin.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goto-bus-stop/async-cls.git"
+  },
+  "scripts": {
+    "test": "standard && tape test.js | tap-spec"
+  },
+  "dependencies": {
+    "has-async-hooks": "^1.0.0"
+  }
+}
