@@ -15,7 +15,6 @@
   "keywords": [],
   "license": "Apache-2.0",
   "main": "index.js",
-  "bin": "bin.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/goto-bus-stop/async-cls.git"
